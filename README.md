@@ -1,7 +1,7 @@
 # selsup
 Тестовое задание на позицию "Frontend разработчика на React" в компанию Selsup
 
-### [Демо](https://fadeyush.github.io/selsup) версия проекта
+### [Демо](https://fadeyush.github.io/selsup/) версия проекта
 
 ## Условие
 Даны структуры данных, описывающих товар – интерфейс Model и набор
