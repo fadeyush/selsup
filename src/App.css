@@ -1,0 +1,16 @@
+.model__wrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.model__name {
+    min-width: 110px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.model__value {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
