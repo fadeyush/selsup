@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import classes from './App.module.scss';
 
 interface Param {
   id: number;
@@ -64,12 +64,12 @@ class ParamEditor extends React.Component<Props, State> {
 
   render() {
     return (
-      <form className="model__edit">
+      <form className={classes.model__edit}>
         {params.map(param => {
             return (
-              <div className='model__wrapper' key={param.id}>
-                <label className='model__name'>{param.name}</label>
-                <input type="text" className='model__value' value={this.state.model.paramValues.find(p => p.paramId === param.id)?.value} onChange={e=>this.setModel(e, param.id)}/>
+              <div className={classes.model__wrapper} key={param.id}>
+                <label className={classes.model__name}>{param.name}</label>
+                <input type="text" className={classes.model__value} value={this.state.model.paramValues.find(p => p.paramId === param.id)?.value} onChange={e=>this.setModel(e, param.id)}/>
               </div>
             )
         })}
