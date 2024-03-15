@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/selsup/static/css/main.3d724d02.css",
+    "main.js": "/selsup/static/js/main.eecfcac5.js",
+    "index.html": "/selsup/index.html",
+    "main.3d724d02.css.map": "/selsup/static/css/main.3d724d02.css.map",
+    "main.eecfcac5.js.map": "/selsup/static/js/main.eecfcac5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d724d02.css",
+    "static/js/main.eecfcac5.js"
+  ]
+}
